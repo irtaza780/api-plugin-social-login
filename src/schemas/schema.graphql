@@ -1,0 +1,17 @@
+type DashBoardStats implements Node {
+  "The Order ID"
+  _id: ID!
+  productsSold: String
+  productsActive: String
+  productInCart: String
+  productInCheckout: String
+  productPaymentDone: String
+}
+type SuccessInfo{
+  message:String,
+  success:Boolean,
+
+}
+extend type Mutation {
+ googleAuth(idToken:String):SuccessInfo
+}
