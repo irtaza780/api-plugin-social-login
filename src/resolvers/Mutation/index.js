@@ -1,4 +1,8 @@
-import googleAuth from "./googleAuth.js";
+import googleAuthLogin from "./googleAuthLogin.js";
+import googleAuthSignUp from "./googleAuthSignUp.js";
+import loginWithFacebook from "./loginWithFacebook.js";
 export default {
-  googleAuth,
+  googleAuthLogin,
+  googleAuthSignUp,
+  loginWithFacebook,
 };
